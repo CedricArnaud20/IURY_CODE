@@ -1,0 +1,91 @@
+
+*{
+box-sizing: boder-box;
+padding: 0;
+margin: 0;
+}
+
+/* definição de fonte */
+@font-face {
+    font-family:LexendDeca;
+    src: url(fontes/LexendDeca-Regular.ttf), url(fontes/Inter-Medium.ttf), url(fontes/Inter-Regular.ttf) ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*criação de váriaveis de cores */
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+  
+    --title: #313131;
+    --text: #B6B6B6;
+
+    --linear:linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+body{
+    font-family: 'LexendDeca' ,Arial,sans-serif;
+    width: 100%;
+    display:flex;
+}
+
+
+
+/*Formataçãode header*/
+.main-header{
+    position: absolute;
+    width: 1440px;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    background: var(--linear);   
+    display:flex;
+}
+
+h1{
+    color:var(--white);
+}
+
+.header-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-contain h1{
+    font-family: 'LexendDeca' ,Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;   
+}
+
+.container-title1 {
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 269px;
+    top: 41px;
+    display:flex;
+}
+
+.container-title2{
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    left: 1118px;
+    top: 41px;
+    display:flex;
+
+}.search-box {
+    position: absolute;
+    width: 900px;
+    height: 65px;
+    left: 270px;
+    top: 144px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display:flex;
+    
+}
