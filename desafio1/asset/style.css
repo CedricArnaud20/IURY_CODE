@@ -29,6 +29,9 @@ body{
     font-family: 'LexendDeca' ,Arial,sans-serif;
     width: 100%;
     display:flex;
+    align-items:center;
+    background-color: #F3F5F7;
+
 }
 
 
@@ -36,7 +39,7 @@ body{
 /*Formataçãode header*/
 .main-header{
     position: absolute;
-    width: 1440px;
+    width: 1366px;
     height: 250px;
     left: 0px;
     top: 0px;
@@ -89,3 +92,9 @@ h1{
     display:flex;
     
 }
+
+.container-main{
+    
+}
+
+
